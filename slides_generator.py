@@ -30,7 +30,8 @@ def parse_outline(outline_text: str) -> list[dict[str, str]]:
 
 def render_page_content(page: dict[str, str], idx: int, title: str, subtitle: str, audience: str) -> str:
     page_type = page["type"]
-    content = html.escape(page["content"])
+    raw_content = page["content"]
+    content = html.escape(raw_content)
 
     if page_type == "cover":
         return f"""
