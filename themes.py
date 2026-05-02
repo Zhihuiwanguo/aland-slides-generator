@@ -1,0 +1,58 @@
+from __future__ import annotations
+
+THEMES = {
+    "商务科技风": {
+        "name": "business-tech",
+        "bg": "#0B1020",
+        "panel": "#131B33",
+        "title": "#EAF2FF",
+        "text": "#C7D6F5",
+        "accent": "#35C2FF",
+        "accent2": "#7AF2CE",
+    },
+    "艾兰得蓝色风": {
+        "name": "aland-blue",
+        "bg": "#0D2A6B",
+        "panel": "#133A91",
+        "title": "#F1F6FF",
+        "text": "#D6E6FF",
+        "accent": "#4EA1FF",
+        "accent2": "#89C2FF",
+    },
+    "浅绿色健康营养风": {
+        "name": "health-green",
+        "bg": "#EAF6EE",
+        "panel": "#FFFFFF",
+        "title": "#1F5130",
+        "text": "#2F6A42",
+        "accent": "#67B985",
+        "accent2": "#93D4AA",
+    },
+    "数据看板风": {
+        "name": "dashboard",
+        "bg": "#0A0F1A",
+        "panel": "#111A2A",
+        "title": "#E6F3FF",
+        "text": "#B9D2EA",
+        "accent": "#29D3FF",
+        "accent2": "#7B7CFF",
+    },
+    "黑金汇报风": {
+        "name": "black-gold",
+        "bg": "#0C0C0C",
+        "panel": "#1A1A1A",
+        "title": "#F8E7B6",
+        "text": "#E2D0A0",
+        "accent": "#C8A44D",
+        "accent2": "#F2D27A",
+    },
+    "小红书图文风": {
+        "name": "xiaohongshu",
+        "bg": "#FFF5F7",
+        "panel": "#FFFFFF",
+        "title": "#FF2850",
+        "text": "#4D4D4D",
+        "accent": "#FF5C7B",
+        "accent2": "#FF9FB1",
+    },
+}
