@@ -1,1 +1,5 @@
 streamlit>=1.44,<2.0
+python-pptx
+pandas
+matplotlib
+openpyxl
